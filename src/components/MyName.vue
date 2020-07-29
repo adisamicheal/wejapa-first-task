@@ -13,3 +13,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+p {
+  font-weight: 600;
+  font-size: 36px;
+}
+</style>
