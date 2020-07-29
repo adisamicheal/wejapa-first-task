@@ -1,6 +1,7 @@
 <template>
   <div>
-     <p> {{ name }} </p>
+     <p>Hi there 👋 </p>
+     <p>I am {{ name }} </p>
   </div>
 </template>
 
