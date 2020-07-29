@@ -4,9 +4,24 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <!-- <router-view/> -->
+    <MyName :name="name"/>
   </div>
 </template>
+
+<script>
+import MyName from "@/components/MyName"
+export default {
+  components: {
+    MyName
+  },
+  data() {
+        return {           
+            name: "MICHEAL ADISA"
+        }
+    }
+}
+</script>
 
 <style>
 #app {
